@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: gateway
+
+server:
+  port: 8765
+
+zuul:
+  routes:
+    base:
+      path: /**
+      serviceId: api-server
+      stripPrefix: true
+  ribbon-isolation-strategy: thread
+  thread-pool:
+    use-separate-thread-pools: true
+    thread-pool-key-prefix: zuul-
+  sensitiveHeaders: Cookie,Set-Cookie
+
+eureka:
+  instance:
+    non-secure-port: ${server.port}
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka  # default address
+
+ribbon:
+  ReadTimeout: 10000

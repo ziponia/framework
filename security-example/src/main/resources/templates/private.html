@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/layout">
+
+<th:block layout:fragment="contents">
+    <h1>비공개 페이지</h1>
+
+    <div th:if="${oauth2User}">
+        소셜 로그인 유저 입니다.
+        <p th:text="${sUser['properties']}"></p>
+    </div>
+
+    <div th:if="${!oauth2User}">
+        일반 로그인 유저 입니다.
+    </div>
+</th:block>
+
+</html>

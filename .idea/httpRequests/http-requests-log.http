@@ -1,0 +1,10 @@
+POST http://localhost:8080/oauth/token?grant_type=client_credentials
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic YXBwbGljYXRpb246dGVzdC1zZWNyZXQ=
+Content-Type: application/x-www-form-urlencoded
+
+<> 2019-06-20T101953.200.json
+
+###
+

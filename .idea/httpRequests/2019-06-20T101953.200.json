@@ -1,0 +1,7 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6WyJyZWFkIiwiYmFzaWMiLCJwcm9maWxlIl0sImV4cCI6MTU2MTA3OTk5MywiYXV0aG9yaXRpZXMiOlsiQkFTSUNfQ0xJRU5UIl0sImp0aSI6IjQ0YmQ5ZDQyLWMzNmQtNDdiYS1hOTU3LTQ4YWZmNDM1NzJkYyIsImNsaWVudF9pZCI6ImFwcGxpY2F0aW9uIn0.XA3ylY6tEmwSEZhsgmsvv3rjGykisIinMDud2Ga_q9PrkGa4Ot7tluiVnLJmQsvFrtKDmk-AKC8N_FuDH_f5AkjLwuwdXvZ8qFIOmBlLGZLpxZMGf-9B9kRKT_P0RPP3GV129vqtGsabCFOgqBow6Pq5nnmLtTxO655Bf7rJSTJCdnVu2cJS-Xxqs7EsifcIsArWi4LuHjr2bcxdRW-khF2kecaPMxmsyUU-YC7ZZFTlIO9wYmNj41kmcfv2KJaHr2M06UtTBpz_6iE9hhhQuFlh32_FNCpVCjmB7el5a_bjKf5doinFai9OM71H9jYKpK-ltTLE_39vfap38Prouw",
+  "token_type": "bearer",
+  "expires_in": 43199,
+  "scope": "read basic profile",
+  "jti": "44bd9d42-c36d-47ba-a957-48aff43572dc"
+}
